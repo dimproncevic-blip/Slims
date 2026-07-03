@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "package": "com.example.elytraswap.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
