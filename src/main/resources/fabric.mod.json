@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "elytra_swap",
+  "version": "1.0.0",
+  "name": "Elytra Swap",
+  "description": "A mod to swap elytra with shield via a bindable keybind with menu selection",
+  "authors": ["dimproncevic-blip"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.elytraswap.ElytraSwapMod"
+    ],
+    "client": [
+      "com.example.elytraswap.client.ElytraSwapClient"
+    ]
+  },
+  "mixins": [
+    "elytraswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
